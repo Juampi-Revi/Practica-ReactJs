@@ -1,0 +1,24 @@
+.container-testimonio{
+    width: 75%;
+    display:flex;
+    margin: 10px 10px 50px;
+    background-color:#fff;
+    box-shadow:0 3px 13px 1px rgb(0 0 0 / 9%);
+}
+.container-texto-testimonio{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nombre-testimonio, .cargo-testimonio {
+    font-size: 2.3rem;
+    line-height: 1.5;
+    font-weight:400;
+}
+.texto-testimonio{
+    margin-top:3rem;
+    font-size: 2rem;
+    text-align: justify;
+}
